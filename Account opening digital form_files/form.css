@@ -1,0 +1,21 @@
+.forms-mvc-widget .bbform {
+    position: relative;
+    min-height: 150px;
+}
+.forms-mvc-widget .bbform-loading {
+    opacity: 0.4;
+}
+.forms-mvc-widget .bbform-indicator {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: url(loader.gif) no-repeat center center;
+}
+.forms-mvc-widget .bbform-loading .bbform-indicator {
+    display: block;
+}
+
